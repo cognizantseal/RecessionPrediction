@@ -1,5 +1,7 @@
 # RecessionPrediction
-This project is an effort to predict probability of economic recession in a year's time with ML PyTorch LSTM model. A recession is a period of sustained negative growth of GDP and increase in unemployment. For my feature variables, I chose credit yield spreads, oil prices and stock prices, all of which are believed to have some predictive power for recessions. 
+This project is an effort to predict the probability of economic recession in a year's time with ML PyTorch LSTM model. A recession is a period of sustained negative growth of GDP and increase in unemployment. For my feature variables, I chose credit yield spreads, oil prices and stock prices, all of which are believed to have some predictive power for recessions. 
+
+The code itself is formatted in a Jupyter Notebook. Data was cleaned with Pandas and NumPy and visualized with Matplotlib. 
 
 This project is still very much a work in progress. The test set predictions are still rudimentary, and don't offer much more insight than simply examining the feature variables. However, I believe the approach I have taken and LSTM model itself are sound. To improve on it, I will take the following steps in the future:
 
